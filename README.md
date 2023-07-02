@@ -47,7 +47,8 @@ Keep your dataset by placing images like:
         └── target
             ├── 1.png 
             └── ...
-
+## Dataset Generation
+    The code for generating the training and testing images is provided in "dataset_generation.py"
 ## Checkpoints:
     The checkpoints are provided for:
     1. CelebA-HQ dataset.
