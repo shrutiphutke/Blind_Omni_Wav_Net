@@ -1,6 +1,6 @@
 # Blind Image Inpainting via Omni-dimensional Gated Attention and Wavelet Queries [CVPRW-23]
 
-PyTorch implementation of [Image Inpainting via Spatial Projections](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Phutke_Blind_Image_Inpainting_via_Omni-Dimensional_Gated_Attention_and_Wavelet_Queries_CVPRW_2023_paper.pdf.).
+PyTorch implementation of [Blind Image Inpainting via Omni-dimensional Gated Attention and Wavelet Queries](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Phutke_Blind_Image_Inpainting_via_Omni-Dimensional_Gated_Attention_and_Wavelet_Queries_CVPRW_2023_paper.pdf.).
 
 <p align="center"><img src="architecture.jpg" alt="SPL" width="60%"></p>
 
