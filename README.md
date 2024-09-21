@@ -59,26 +59,31 @@ Keep your dataset by placing images like:
 
 Download the checkpoint: [![Checkpoints](https://img.shields.io/badge/Checkpoint-<COLOR>.svg)](https://drive.google.com/drive/folders/1BqNwuY6NFCv6xhgyF9c-QV7bO_WryEmr?usp=sharing)
 
-To test the network:
-
-    CelebA_HQ dataset:
-        python test.py --data_path_test ./datasets/celeb/ --task_name inpaint --dataset_name celeb --model_file ./checkpoints/celeb.pth
-
-    FFHQ dataset:
-        python test.py --data_path_test ./datasets/ffhq/ --task_name inpaint --dataset_name ffhq --model_file ./checkpoints/ffhq.pth
-
-    Places2 dataset:
-        python test.py --data_path_test ./datasets/places/ --task_name inpaint --dataset_name places --model_file ./checkpoints/places.pth
-
-    Paris Street View dataset:
-        python test.py --data_path_test ./datasets/paris/ --task_name inpaint --dataset_name paris --model_file ./checkpoints/paris.pth 
+## Testing:
+    To test the network:
+    
+        CelebA_HQ dataset:
+            python test.py --data_path_test ./datasets/celeb/ --task_name inpaint --dataset_name celeb --model_file ./checkpoints/celeb.pth
+    
+        FFHQ dataset:
+            python test.py --data_path_test ./datasets/ffhq/ --task_name inpaint --dataset_name ffhq --model_file ./checkpoints/ffhq.pth
+    
+        Places2 dataset:
+            python test.py --data_path_test ./datasets/places/ --task_name inpaint --dataset_name places --model_file ./checkpoints/places.pth
+    
+        Paris Street View dataset:
+            python test.py --data_path_test ./datasets/paris/ --task_name inpaint --dataset_name paris --model_file ./checkpoints/paris.pth 
         
 
 
-The results will be stored in:
+    The results will be stored in:
+    
+        ./results/respective_dataset_name/
+        
+## Training on your own corrupted dataset:
+    The provided chdeckpoints may not provide the efficient inpainted output due to difference in the corrupted image generation method. In this scenario, you can retrain the Blind_Omni_Wav_net using:
 
-    ./results/respective_dataset_name/
-
+    python main.py
 
 ## Citation
 If our method is useful for your research, please consider citing:
