@@ -81,7 +81,8 @@ Download the checkpoint: [![Checkpoints](https://img.shields.io/badge/Checkpoint
         ./results/respective_dataset_name/
         
 ## Training on your own corrupted dataset:
-    The provided chdeckpoints may not provide the efficient inpainted output due to difference in the corrupted image generation method. In this scenario, you can retrain the Blind_Omni_Wav_net using:
+    The provided chdeckpoints may not provide the efficient inpainted output due to difference in the corrupted image generation method. 
+    In this scenario, you can retrain the Blind_Omni_Wav_net using:
 
     python main.py
 
